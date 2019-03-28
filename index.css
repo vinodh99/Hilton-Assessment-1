@@ -1,0 +1,71 @@
+body {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  transition: 0.3s;
+  border: 10px solid #ffffff;
+}
+.hotel {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 50px 25px 25px 25px;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #000000;
+  color: white;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+  height: 60px;
+}
+
+.button {
+  background-color: #252222;
+  border-color: #000000;
+  border-radius: 4px;
+  padding: 12px 28px;
+  color: white;
+  font-weight: bold;
+}
+
+address {
+  display: block;
+  font-style: italic;
+  color: whitesmoke;
+}
+
+.bottomCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 1em;
+  background: #ddd;
+  background-image: linear-gradient(white, grey);
+  font-weight: bold;
+}
+
+.td {
+  text-align: end;
+}
